@@ -5,7 +5,7 @@
 ### PCB
 Composants : 
 * [NUCLEO-L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
-* [Magnétomètre 3 axes BMM150 SEN0419](https://www.gotronic.fr/art-magnetometre-3-axes-bmm150-sen0419-35122.htm)
+* [Magnétomètre 3 axes MMC5603 ADA5579](https://www.gotronic.fr/art-magnetometre-3-axes-mmc5603-ada5579-35829.htm)
 * [GPS Tel0094](https://www.gotronic.fr/art-module-gps-tel0094-25732.htm)
 * [Microcontroleur pour simulation trame NMEA STM32C011J4M6](https://fr.farnell.com/stmicroelectronics/stm32c011j4m6/mcu-arm-32-bits-48mhz-nsoic-8/dp/4138300)
 * [Moteur pas à pas 17hs15-0404s](https://www.gotronic.fr/art-moteur-17hs15-0404s-18354.htm)
