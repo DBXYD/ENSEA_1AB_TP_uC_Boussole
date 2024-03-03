@@ -1,0 +1,565 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2e9feef3-d2ce-488a-99fa-e1de5099ffc3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 112.776 27.94)
+		(size 44.45 123.19)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05c5487e-de82-4573-ad81-720c1b2881f4")
+		(property "Sheetname" "NUCLEO_L476RG"
+			(at 112.776 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NUCLEO_L476RG.kicad_sch"
+			(at 112.776 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 43.434)
+		(size 45.72 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a7e115b-7ca3-45cc-80a9-3f3ed0217541")
+		(property "Sheetname" "TMC2225_Driver"
+			(at 215.9 42.7224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TMC2225_Driver.kicad_sch"
+			(at 215.9 66.8786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 215.9 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MS2" input
+			(at 215.9 62.484 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d44aef5-6e2c-456f-9925-883f5373758b")
+		)
+		(pin "MS1" input
+			(at 215.9 59.944 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7225518-6f05-48ac-9cfd-d82a7d6ea6e8")
+		)
+		(pin "ENN" input
+			(at 215.9 54.864 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd498d42-db51-44f5-993b-834e9092a612")
+		)
+		(pin "DIR" input
+			(at 215.9 49.784 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d64a049-d4aa-43d3-b719-c7ba6f1e18e4")
+		)
+		(pin "STEP" input
+			(at 215.9 47.244 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6120c010-2430-4353-a2ce-f2d7bfea4377")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 124.206)
+		(size 45.72 9.652)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51dbfd4b-530d-4bfc-b216-7850cc622368")
+		(property "Sheetname" "OLED_SSD1306"
+			(at 215.9 123.4944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OLED_SSD1306.kicad_sch"
+			(at 215.9 134.4426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OLED_I2C_SDA" input
+			(at 215.9 127.508 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "768a6dd1-a70c-4d3e-8fd3-e74a3fd72280")
+		)
+		(pin "OLED_I2C_SCL" input
+			(at 215.9 130.048 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c409d0b9-f5d3-4657-9f56-3072877bfa7a")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 72.39)
+		(size 45.72 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61350b7b-675a-49f4-b3ed-619647759012")
+		(property "Sheetname" "GPS_TEL0094_STM32C011J4M6"
+			(at 215.9 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS_TEL0094_STM32C011J4M6.kicad_sch"
+			(at 215.9 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_PPS" input
+			(at 215.9 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77dbc148-c07a-481e-aca9-f375afd441ae")
+		)
+		(pin "GPS_EN" input
+			(at 215.9 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c41e103-c923-4fbf-a8bc-31870b9d44bc")
+		)
+		(pin "NUCLEO_TX" input
+			(at 215.9 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38c6aa7a-ccb7-45e2-bbbc-149649d711d7")
+		)
+		(pin "NUCLEO_RX" input
+			(at 215.9 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f471417-cbca-44f2-b05e-989869267984")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 44.45)
+		(size 26.67 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "656cbb3c-4322-42f9-a353-72af4bbcd3ec")
+		(property "Sheetname" "SUPPLY"
+			(at 25.4 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SUPPLY.kicad_sch"
+			(at 25.4 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 64.262)
+		(size 26.67 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8626d2ab-7a6d-4e27-94e7-d8511693f938")
+		(property "Sheetname" "Rotary_Encodeur"
+			(at 25.4 63.5504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rotary_Encodeur.kicad_sch"
+			(at 25.4 77.5466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC_A" input
+			(at 52.07 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7d1e8d7-bbd3-4948-9a88-b8b4de94de12")
+		)
+		(pin "ENC_B" input
+			(at 52.07 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c66439d0-8e8a-41d2-90d0-72c8ef1eb66d")
+		)
+		(pin "ENC_BTN" input
+			(at 52.07 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86abcc4a-a653-4931-9208-bd13530ced48")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 86.36)
+		(size 26.67 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "864c7139-0ed0-4610-9ca7-6ef011edb53c")
+		(property "Sheetname" "Current_NCS199A3RSQT2G"
+			(at 25.4 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_NCS199A3RSQT2G.kicad_sch"
+			(at 25.4 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "ENC_A" input
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a188a22-baab-40a3-ba72-dab53a154106")
+		)
+		(pin "ENC_B" input
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb2b31cf-f21c-4a72-8a91-66a4ff674088")
+		)
+		(pin "ENC_BTN" input
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ab719db-72d7-484a-96be-2bd658164048")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 96.52)
+		(size 45.72 21.082)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aacdf244-528b-4ec8-923e-bfdb7275b7de")
+		(property "Sheetname" "Magnetometre_BMM150_SEN0419"
+			(at 215.9 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Magnetometre_BMM150_SEN0419.kicad_sch"
+			(at 215.9 118.1866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 215.9 107.442 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfa638c1-f41a-4a2a-bda4-f96317551a75")
+		)
+		(pin "INT" input
+			(at 215.9 113.792 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "debcb9bc-13c5-429f-a968-3d9cb393a1d5")
+		)
+		(pin "STATUS" input
+			(at 215.9 111.252 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d27c42ba-ef1b-424d-9d8c-08a7375d0b54")
+		)
+		(pin "SPI_MISO" input
+			(at 215.9 104.902 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a553202-1912-4797-bcb6-751184157610")
+		)
+		(pin "SPI_CLK" input
+			(at 215.9 99.822 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "347cb179-a41d-472f-9488-b412321d5cc4")
+		)
+		(pin "SPI_MOSI" input
+			(at 215.9 102.362 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c18c900-df76-4d1e-8646-835c1705ff70")
+		)
+		(instances
+			(project "uC_TP_Boussole_mb"
+				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
