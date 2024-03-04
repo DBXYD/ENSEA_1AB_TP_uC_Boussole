@@ -3642,6 +3642,126 @@
 		)
 		(uuid 3d1ffba1-70e7-4164-8f8e-ea8d90a4f6b3)
 	)
+	(hierarchical_label "I2C1_SCL"
+		(shape input)
+		(at 46.99 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d94c9d-b482-4bfa-8a7a-44ce813950a7")
+	)
+	(hierarchical_label "TIM2_CH1_ENC_A"
+		(shape input)
+		(at 46.99 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4205d56a-27ac-4043-aab1-ac0a3624071d")
+	)
+	(hierarchical_label "SPI2_MISO"
+		(shape input)
+		(at 74.93 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c190955-da20-42fe-b409-bca71366c344")
+	)
+	(hierarchical_label "SPI2_SCK"
+		(shape input)
+		(at 46.99 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a04f9d3-ec07-4145-a792-5da8c7cbd533")
+	)
+	(hierarchical_label "USART1_TX"
+		(shape input)
+		(at 46.99 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83f5184c-3359-4fa2-be99-68c3104eda28")
+	)
+	(hierarchical_label "TIM2_CH2_ENC_B"
+		(shape input)
+		(at 46.99 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84605526-fad2-4a07-8ab3-e1ec52ce36f6")
+	)
+	(hierarchical_label "I2C1_SDA"
+		(shape input)
+		(at 46.99 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1e6263e-0ca0-4162-b018-a500ef8c772b")
+	)
+	(hierarchical_label "SPI2_MOSI"
+		(shape input)
+		(at 74.93 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdc4a096-d759-4544-b00b-84154b7b60f6")
+	)
+	(hierarchical_label "USART1_RX"
+		(shape input)
+		(at 46.99 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf978389-15a0-47a9-ac3c-56ac80a0063c")
+	)
+	(hierarchical_label "TIM3_CH1_STEPPER_PWM"
+		(shape input)
+		(at 46.99 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0903623-d686-47e2-8efe-3b7091ccf9b8")
+	)
 	(symbol
 		(lib_name "NUCLEO_L476RG_1")
 		(lib_id "WITNS_ST:NUCLEO_L476RG")
@@ -3653,7 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2b2c72-2825-417a-89d0-4f2b164727a7")
-		(property "Reference" "U2"
+		(property "Reference" "U501"
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -3669,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WITNS:ST_NUCLEO_64"
+		(property "Footprint" "libs:ST_NUCLEO_64"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -3927,7 +4047,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "U2")
+					(reference "U501")
 					(unit 2)
 				)
 			)
@@ -3943,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ea3d58a-a461-4328-a09b-dfcfacb260f5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0501"
 			(at 30.48 158.75 0)
 			(effects
 				(font
@@ -3993,7 +4113,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "#PWR05")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -4009,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6aed245-5586-4477-a342-1f3f5a141d36")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0502"
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -4059,7 +4179,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "#PWR06")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71cb576-ea54-457e-b9a2-6f47af2671b7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0504"
 			(at 74.93 180.34 0)
 			(effects
 				(font
@@ -4125,7 +4245,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "#PWR08")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -4141,7 +4261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80d2a47-bb0b-47aa-bab9-9da6d3f4a530")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0503"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -4191,7 +4311,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "#PWR07")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -4207,7 +4327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd8309b8-e0d3-4487-b76d-401bf87ad6fb")
-		(property "Reference" "U2"
+		(property "Reference" "U501"
 			(at 60.96 137.16 0)
 			(effects
 				(font
@@ -4223,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WITNS:ST_NUCLEO_64"
+		(property "Footprint" "libs:ST_NUCLEO_64"
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -4481,7 +4601,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/05c5487e-de82-4573-ad81-720c1b2881f4"
-					(reference "U2")
+					(reference "U501")
 					(unit 1)
 				)
 			)

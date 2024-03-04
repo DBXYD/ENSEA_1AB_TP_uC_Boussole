@@ -619,7 +619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23f10623-7b2e-4cae-a039-2cd305aa84b2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0801"
 			(at 34.29 46.99 0)
 			(effects
 				(font
@@ -670,7 +670,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "#PWR048")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -686,7 +686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437a79c3-3ae4-4aad-94ab-c5ac6e46b2e5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0804"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -736,7 +736,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "#PWR051")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -752,7 +752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe19e1f-1f00-43db-afbe-c5e51c516efa")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0803"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -802,7 +802,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "#PWR050")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -818,7 +818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7759315c-0a2a-463a-bfde-29b585a22d22")
-		(property "Reference" "C15"
+		(property "Reference" "C801"
 			(at 71.12 43.1862 0)
 			(effects
 				(font
@@ -836,7 +836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -872,7 +872,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "C15")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -888,7 +888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec5ca6f-0dfb-4e31-909e-cf7e84a493c5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0802"
 			(at 44.45 49.53 0)
 			(effects
 				(font
@@ -939,7 +939,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "#PWR047")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -955,7 +955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef28440c-b425-4e42-9768-39a35fda4e61")
-		(property "Reference" "J6"
+		(property "Reference" "J801"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -971,7 +971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -1013,7 +1013,7 @@
 		(instances
 			(project "uC_TP_Boussole_mb"
 				(path "/2e9feef3-d2ce-488a-99fa-e1de5099ffc3/51dbfd4b-530d-4bfc-b216-7850cc622368"
-					(reference "J6")
+					(reference "J801")
 					(unit 1)
 				)
 			)
