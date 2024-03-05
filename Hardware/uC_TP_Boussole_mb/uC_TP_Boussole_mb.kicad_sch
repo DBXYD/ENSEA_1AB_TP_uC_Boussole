@@ -496,6 +496,17 @@
 		)
 		(uuid "faae0064-e191-44d2-9ccd-e8d91f63f228")
 	)
+	(text "A faire,\nMesure courant sur le 5V de la Nucleo\nRajouter 8 leds + bouton\nLed RGB sur 3 canaux d'une PWM\nAugmenter Rsense pour limiter le courant\n"
+		(exclude_from_sim no)
+		(at 13.716 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5f89b35-91a1-4551-9d4b-e0d4a081def4")
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 52.07 50.8 270)
