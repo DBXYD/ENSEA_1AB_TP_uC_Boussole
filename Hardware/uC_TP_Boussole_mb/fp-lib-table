@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "libs")(type "KiCad")(uri "/home/nicolas/git/ENSEA_1AB_TP_uC_Boussole/Hardware/libs")(options "")(descr ""))
+  (lib (name "NUCLEO-L476RG")(type "KiCad")(uri "/home/nicolas/git/ENSEA_1AB_TP_uC_Boussole/Hardware/libs/NUCLEO-L476RG.pretty")(options "")(descr ""))
 )
