@@ -2529,7 +2529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN3_10542_WRE"
+		(property "Footprint" ""
 			(at 63.5 88.9 0)
 			(effects
 				(font

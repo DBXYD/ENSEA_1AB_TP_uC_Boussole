@@ -1989,7 +1989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/482016514001.pdf"
 			(at 64.77 53.086 0)
 			(effects
 				(font
@@ -1999,6 +1999,15 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "482016514001"
 			(at 64.77 59.69 0)
 			(effects
 				(font

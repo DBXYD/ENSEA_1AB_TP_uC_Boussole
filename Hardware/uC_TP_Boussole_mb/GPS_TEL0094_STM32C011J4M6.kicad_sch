@@ -1735,6 +1735,12 @@
 		(uuid "3653ae6e-8a25-47b7-8d99-4e70e01551ad")
 	)
 	(junction
+		(at 63.5 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "483cfd20-5f5b-4c8d-918b-35d05d0d7c2d")
+	)
+	(junction
 		(at 45.72 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2090,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 134.62) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9a9b59-4e99-4e62-8976-e08f4a646ac8")
+	)
+	(wire
+		(pts
 			(xy 140.97 48.26) (xy 144.78 48.26)
 		)
 		(stroke
@@ -2190,16 +2206,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 134.62) (xy 63.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ee8a43-e0a6-4583-97bc-547175e9a11f")
-	)
-	(wire
-		(pts
 			(xy 48.26 100.33) (xy 48.26 101.6)
 		)
 		(stroke
@@ -2207,6 +2213,16 @@
 			(type default)
 		)
 		(uuid "d666a0a5-6a3e-4e54-b3e5-60fff5c19e5b")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e4437a-9b90-4522-be93-c59a90569dc1")
 	)
 	(wire
 		(pts
@@ -2421,13 +2437,13 @@
 		(uuid "84a6d974-592d-4eb9-a7b2-e6b83246dda0")
 	)
 	(label "STM32C0_BTN"
-		(at 59.69 134.62 0)
+		(at 76.2 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "87729414-57bc-421d-b1c6-76c947beffec")
 	)
