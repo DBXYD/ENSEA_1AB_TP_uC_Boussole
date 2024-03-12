@@ -928,7 +928,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a871b3e-f2fe-4860-97fd-6d18d2297be7")
 		(property "Reference" "U601"
 			(at 163.83 82.712 0)
@@ -938,8 +937,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 163.83 84.6171 0)
+		(property "Value" "NCS199A3RSQT2G"
+			(at 149.86 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)

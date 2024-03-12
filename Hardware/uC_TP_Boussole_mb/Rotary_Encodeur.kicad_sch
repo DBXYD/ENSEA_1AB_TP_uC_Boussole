@@ -1980,7 +1980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libs:482016514001_Mechanical_Incremental_Encoder_Switch"
 			(at 60.96 55.626 0)
 			(effects
 				(font

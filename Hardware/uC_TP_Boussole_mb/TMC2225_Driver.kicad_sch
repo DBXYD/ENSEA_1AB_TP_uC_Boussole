@@ -3202,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "680m"
 			(at 166.37 91.44 90)
 			(effects
 				(font
