@@ -1074,9 +1074,9 @@
 		)
 		(uuid "cdd048f5-ff0d-4d81-9907-4c1b56fa208b")
 	)
-	(hierarchical_label "SPI_MOSI"
+	(hierarchical_label "STATUS"
 		(shape input)
-		(at 62.23 71.12 90)
+		(at 57.15 71.12 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1084,7 +1084,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0646ba86-98b0-4eb1-a083-24f33648ca74")
+		(uuid "2a750270-d7ae-4551-b541-d9da9cb618e2")
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
@@ -1097,6 +1097,30 @@
 			(justify left)
 		)
 		(uuid "2c2128d8-b995-4191-a2f8-be564b87d095")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 52.07 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f4d63e6-755d-4388-ba40-88a435aa4083")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 30.48 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d017dc3-2275-49bf-99b2-ef6f658c7945")
 	)
 	(hierarchical_label "STATUS"
 		(shape input)
@@ -1112,6 +1136,18 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
+		(at 67.31 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "515f987f-832c-42b2-8504-9634e50e9fd9")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
 		(at 35.56 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1121,18 +1157,6 @@
 			(justify left)
 		)
 		(uuid "5697834c-b29d-41ea-9bfe-153f10112255")
-	)
-	(hierarchical_label "INT"
-		(shape input)
-		(at 25.4 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64633197-f23f-4fc8-8631-3d9c2b87a138")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
@@ -1160,6 +1184,18 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
+		(at 62.23 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fe8d663-f4e2-4033-a992-35593cdeec6f")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
 		(at 35.56 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1170,9 +1206,9 @@
 		)
 		(uuid "935cb00d-162e-4ab4-b9d4-c507aced1006")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 57.15 71.12 90)
+		(at 25.4 71.12 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1180,43 +1216,7 @@
 			)
 			(justify left)
 		)
-		(uuid "978c88e6-5815-49a9-a08a-d8a2aeb72b87")
-	)
-	(hierarchical_label "STATUS"
-		(shape input)
-		(at 30.48 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a29b6973-93fa-4d45-a42c-c4275bae7247")
-	)
-	(hierarchical_label "SPI_CLK"
-		(shape input)
-		(at 67.31 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e94fbed2-c8f8-4085-b8d7-e67c8c85f635")
-	)
-	(hierarchical_label "SPI_CS"
-		(shape input)
-		(at 52.07 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f015b4c1-bf40-4d51-b4f1-87d74bb0051f")
+		(uuid "cb3dc754-287f-4b9d-81e4-0cade05bedfa")
 	)
 	(symbol
 		(lib_id "mylibs:D_TVS_Uni_x4")

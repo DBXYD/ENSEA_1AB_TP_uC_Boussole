@@ -1241,8 +1241,8 @@
 		(uuid "ff877c3c-ffc2-48db-82c1-907d58da8a31")
 	)
 	(no_connect
-		(at 74.93 83.82)
-		(uuid "b1476afb-12aa-4622-a7e9-9c55ecb06619")
+		(at 69.85 83.82)
+		(uuid "17224060-2977-4e90-b757-fb30a3d47710")
 	)
 	(wire
 		(pts
@@ -1396,6 +1396,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 80.01) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea48f33-d274-479e-b894-748d3869082c")
+	)
+	(wire
+		(pts
 			(xy 52.07 62.23) (xy 52.07 69.85)
 		)
 		(stroke
@@ -1423,16 +1433,6 @@
 			(type default)
 		)
 		(uuid "b245a082-d7f0-49b6-b033-97ade883f122")
-	)
-	(wire
-		(pts
-			(xy 69.85 80.01) (xy 69.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0c35b8-21b2-434c-afa1-0f00e0f17566")
 	)
 	(wire
 		(pts
@@ -1565,6 +1565,17 @@
 		)
 		(uuid "25b591b2-ad2b-4431-a72f-e8554bc2aae4")
 	)
+	(label "S"
+		(at 74.93 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ac815fa-d852-4ed3-b86a-70beed298936")
+	)
 	(label "B"
 		(at 52.07 62.23 0)
 		(fields_autoplaced yes)
@@ -1608,17 +1619,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad071c64-a6f6-4b62-9df0-344a7c62c9a6")
-	)
-	(label "S"
-		(at 69.85 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3f23cba-3a86-4d14-9f9d-dfda49c88454")
 	)
 	(hierarchical_label "ENC_A"
 		(shape input)

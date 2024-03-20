@@ -3141,6 +3141,18 @@
 		)
 		(uuid "4c768d44-8d15-4284-b34d-565384627a89")
 	)
+	(hierarchical_label "GPS_PPS"
+		(shape input)
+		(at 160.02 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bd0ecbd-f10b-4320-bf6f-6275d0f6c8fd")
+	)
 	(hierarchical_label "NUCLEO_TX"
 		(shape input)
 		(at 240.03 49.53 0)
@@ -3167,30 +3179,6 @@
 	)
 	(hierarchical_label "GPS_EN"
 		(shape input)
-		(at 160.02 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87cc75fc-dc07-4c4c-b6dd-b1f464ff7770")
-	)
-	(hierarchical_label "GPS_PPS"
-		(shape input)
-		(at 154.94 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0d12213-aa41-4b9c-bdef-4e33b8e29806")
-	)
-	(hierarchical_label "GPS_EN"
-		(shape input)
 		(at 151.13 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3200,6 +3188,18 @@
 			(justify left)
 		)
 		(uuid "ab6bce48-cdfa-4771-ae78-c512089e4f69")
+	)
+	(hierarchical_label "GPS_EN"
+		(shape input)
+		(at 154.94 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cac786e9-06a9-4d36-bb12-97a3d9ea9d9b")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5395,7 +5395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 52.07 171.45 0)
 			(effects
 				(font
