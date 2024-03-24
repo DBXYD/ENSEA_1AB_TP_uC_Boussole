@@ -9248,6 +9248,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "430182070816"
+			(at 229.87 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e66e30e-ae86-464f-b14d-6e73d390d93b")
 		)
@@ -10349,6 +10358,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "430182070816"
+			(at 265.43 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,6 +11521,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "430182070816"
+			(at 195.58 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd4e9a0b-6073-47ac-b374-76d22e75ede1")
 		)
@@ -11647,6 +11674,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "430182070816"
+			(at 229.87 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,6 +13104,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 229.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "430182070816"
+			(at 229.87 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)

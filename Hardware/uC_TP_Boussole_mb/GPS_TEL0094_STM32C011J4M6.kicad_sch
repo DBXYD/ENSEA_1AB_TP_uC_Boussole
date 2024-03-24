@@ -4730,6 +4730,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JS202011JCQN"
+			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ef8e1e7f-97a1-498f-b74c-2a992e5c454f")
 		)
@@ -5152,6 +5161,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "430182070816"
+			(at 48.26 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e1b8ecc-00a8-42b8-9283-1444029290b4")
 		)
@@ -5347,6 +5365,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "430182070816"
+			(at 86.36 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
