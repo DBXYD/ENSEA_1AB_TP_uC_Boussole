@@ -1397,6 +1397,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ERJ2RKF30R1X"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43943079-f519-4039-88a4-8c0d46db5e11")
 		)

@@ -2451,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 111.76 41.91 90)
 			(effects
 				(font
@@ -2804,7 +2804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 124.46 41.91 90)
 			(effects
 				(font
@@ -2961,7 +2961,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "472121020311"
+		(property "MPN" "WE 472121020311"
 			(at 36.83 33.02 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61000421121"
+		(property "MPN" "WE 61000421121"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -3955,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 99.06 41.91 90)
 			(effects
 				(font

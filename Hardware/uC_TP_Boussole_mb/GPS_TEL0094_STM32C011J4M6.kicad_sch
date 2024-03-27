@@ -3806,7 +3806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 95.25 146.05 0)
 			(effects
 				(font
@@ -3948,6 +3948,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 6 GPIO, SO8N"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32C011J4M6"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -5161,7 +5170,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 48.26 140.97 90)
 			(effects
 				(font
@@ -5372,7 +5381,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 86.36 104.14 90)
 			(effects
 				(font

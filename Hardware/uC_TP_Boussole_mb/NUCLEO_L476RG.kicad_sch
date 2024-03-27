@@ -8691,7 +8691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS55040"
+		(property "MPN" "WE 150060GS55040"
 			(at 143.51 88.9 0)
 			(effects
 				(font
@@ -8903,7 +8903,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060YS55040"
+		(property "MPN" "WE 150060YS55040"
 			(at 143.51 53.34 0)
 			(effects
 				(font
@@ -9248,7 +9248,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 229.87 73.66 90)
 			(effects
 				(font
@@ -9866,6 +9866,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TSW-119-19-T-D "
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "105"
 			(uuid "a6c1043f-3ed1-449f-8675-4d8fc6639c22")
 		)
@@ -10365,7 +10374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 265.43 73.66 90)
 			(effects
 				(font
@@ -10441,7 +10450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS55040"
+		(property "MPN" "WE 150060GS55040"
 			(at 143.51 80.01 0)
 			(effects
 				(font
@@ -10723,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS55040"
+		(property "MPN" "WE 150060GS55040"
 			(at 143.51 71.12 0)
 			(effects
 				(font
@@ -10865,7 +10874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS55040"
+		(property "MPN" "WE 150060GS55040"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -10941,7 +10950,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060AS55040"
+		(property "MPN" "WE 150060AS55040"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -11018,7 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61002021121"
+		(property "MPN" "WE 61002021121"
 			(at 222.25 149.86 0)
 			(effects
 				(font
@@ -11305,6 +11314,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SAMTEC TSW-106-05-F-T "
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "cc1b7a6f-a7f0-4e6d-a76c-ab487f94388b")
 		)
@@ -11521,7 +11539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 195.58 73.66 90)
 			(effects
 				(font
@@ -11591,6 +11609,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SAMTEC TSW-106-05-F-T "
 			(at 163.83 156.21 0)
 			(effects
 				(font
@@ -11681,7 +11708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 229.87 110.49 90)
 			(effects
 				(font
@@ -12093,7 +12120,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 143.51 35.56 0)
 			(effects
 				(font
@@ -12164,6 +12191,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SAMTEC TSW-106-05-F-T "
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -12251,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS55040"
+		(property "MPN" "WE 150060GS55040"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -12753,6 +12789,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TSW-119-19-T-D "
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "105"
 			(uuid "cd581a91-d17c-4a35-a795-9264d029653f")
 		)
@@ -13111,7 +13156,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "430182070816"
+		(property "MPN" "WE 430182070816"
 			(at 229.87 36.83 90)
 			(effects
 				(font

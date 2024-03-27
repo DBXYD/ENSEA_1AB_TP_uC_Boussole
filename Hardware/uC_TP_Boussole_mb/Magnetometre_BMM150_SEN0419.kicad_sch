@@ -1981,6 +1981,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "S9B-XH-A (LF)(SN)"
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "40efe69a-b90e-4a7f-8dbc-f3827a2ff8f5")
 		)

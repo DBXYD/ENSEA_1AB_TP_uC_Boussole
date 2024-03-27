@@ -2632,6 +2632,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "WW12PR680FTL "
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a573bab0-abe9-4c34-91cf-bd14bfc9a451")
 		)
@@ -2700,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060RS55040"
+		(property "MPN" "WE 150060RS55040"
 			(at 177.8 110.49 90)
 			(effects
 				(font
@@ -3327,6 +3336,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WW12PR680FTL "
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -4156,6 +4174,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MFL0603R1100FB "
 			(at 44.45 101.6 0)
 			(effects
 				(font
