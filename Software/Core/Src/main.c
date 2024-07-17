@@ -68,6 +68,7 @@ void SystemClock_Config(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -105,6 +106,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  uint8_t delay;
+	  HAL_GPIO_TogglePin(PC10_GPIO_Port, PC10_Pin);
+	  HAL_Delay(30);
+	  delay = (delay > 50) ? 10 : delay+1;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
